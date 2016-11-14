@@ -1,0 +1,2 @@
+flask
+pubnub >= 3,<4
