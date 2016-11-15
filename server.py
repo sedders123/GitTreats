@@ -1,4 +1,3 @@
-import sqlite3
 import os
 from flask import Flask, jsonify, redirect, request, g, abort
 from pubnub import Pubnub
