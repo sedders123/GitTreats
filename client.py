@@ -15,6 +15,7 @@ GPIO.setwarnings(False)
 pinMotorForwards = 10
 
 GPIO.setup(pinMotorForwards, GPIO.OUT)
+GPIO.output(pinMotorForwards, 0)
 
 def turn_motor(duration):
     GPIO.output(pinMotorForwards, 1)
